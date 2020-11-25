@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Bookmark App sketch</title>
+</head>
+<body>
+    <header>
+        <h1>Moon's Bookmark App</h1>
+        <h2>Welcome's Moon's Bookmark(main page)</h2>
+    </header>
+    <main>
+        <div class="main-page">
+            <form id="add-bookmark">
+                <button class="add-bookmark-button">Add Bookmark</button>
+                <select name="filter" id="filter">
+                    <option value="low-high">Rate: Low to High</option>
+                    <option value="high-low">Rate: High to Low</option>
+                </select>
+            </form>
+            <ul class="bookmark-article">
+                <li class="bookmark-container"> 
+                    <h3>Title 1</h3>
+                    <p class="rate">★★★☆☆</p>
+                    <button class="detail-bookmark-button">•••</button>
+                    <button class="delete-bookmark-button">Delete</button>
+                </li>
+                <li class="bookmark-container"> 
+                    <h3>Title 2</h3>
+                    <p class="rate">★★★★☆</p>
+                    <button class="detail-bookmark-button">•••</button>
+                    <button class="delete-bookmark-button">Delete</button>
+                </li>
+            </ul>    
+        </div>
+    </main>
+    <br>
+    <header>
+        <h1>Moon's Bookmark App</h1>
+        <h2>Welcome's Moon's Bookmark(add page)</h2>
+    </header>
+    <main>
+        <div class="main-page">
+            <form id="add-bookmark">
+                <button class="add-bookmark-button">Add Bookmark</button>
+                <select name="filter" id="filter">
+                    <option value="low-high">Rate: Low to High</option>
+                    <option value="high-low">Rate: High to Low</option>
+                </select>
+            </form>
+        <div class="add-container">
+            <form id="add-bookmark">
+                <label for="title">Title : </label>
+                <input type="text" id="title" name="title" placeholder="type title" required>
+                <label for="url">URL : </label>
+                <input type="text" id="url" name="url" placeholder="type url" required>
+                <select name="rate" id="rate">
+                    <option value="rate-one">★☆☆☆☆</option>
+                    <option value="rate-two">★★☆☆☆</option>
+                    <option value="rate-three">★★★☆☆</option>
+                    <option value="rate-four">★★★★☆</option>
+                    <option value="rate-five">★★★★★</option>
+                </select>
+                <br>
+                <label for="description">Description of Bookmark</label>   
+                <br> 
+                <textarea name="description" id="description" cols="30" rows="3"></textarea>
+                <button class="add-submit-button">submit</button>
+            </form>
+        </div>
+            <ul class="bookmark-article">
+                <li class="bookmark-container"> 
+                    <h3>Title 1</h3>
+                    <p class="rate">★★★☆☆</p>
+                    <button class="detail-bookmark-button">•••</button>
+                    <button class="delete-bookmark-button">Delete</button>
+                </li>
+            </ul>    
+        </div>
+    </main>
+    <br>
+    <header>
+        <h1>Moon's Bookmark App</h1>
+        <h2>Welcome's Moon's Bookmark(main page)</h2>
+    </header>
+    <main>
+        <div class="main-page">
+            <form id="add-bookmark">
+                <button class="add-bookmark-button">Add Bookmark</button>
+                <select name="filter" id="filter">
+                    <option value="low-high">Rate: Low to High</option>
+                    <option value="high-low">Rate: High to Low</option>
+                </select>
+            </form>
+            <ul class="bookmark-article">
+                <li class="bookmark-container"> 
+                    <h3>Title 1</h3>
+                    <p class="rate">★★★☆☆</p>
+                    <div class="description-container"> 
+                    <p>
+                        This is the description.
+                        you can use the link.
+                    </p>
+                    <p><a href="http://google.com" class="link">link</a></p>
+                    </div>
+                    <button class="detail-bookmark-button">•••</button>
+                    <button class="delete-bookmark-button">Delete</button>
+                </li>
+                <li class="bookmark-container"> 
+                    <h3>Title 2</h3>
+                    <p class="rate">★★★★☆</p>
+                    <button class="detail-bookmark-button">•••</button>
+                    <button class="delete-bookmark-button">Delete</button>
+                </li>
+            </ul>    
+        </div>
+    </main>
+</body>
+</html>
